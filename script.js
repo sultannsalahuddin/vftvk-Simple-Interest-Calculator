@@ -17,7 +17,7 @@ function rateChange(val){
 }       
 function warn(){
     var x =  parseInt(document.getElementById("principal").value);
-    if (x <= 1)
+    if (x < 1)
     {
     alert("Enter a positive number!");
     return false;
